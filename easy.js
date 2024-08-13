@@ -113,4 +113,47 @@ const cheking = checkks("world there hello");
 console.log(cheking)
 
 
+//14.  Write a function that replaces all occurrences of a substring with another substring within a given string.
+const replacer = (text4) =>{
+    if (text4 === "hello") {
+        return text4.replace("hi");
+    } else {
+        return text4;
+    }   
+}
+
+const replacerr = replacer("hello");
+console.log(replacerr) //this did't work, it's not replacing anything
+
+//15.  Write a function that removes all whitespace from a given string.
+const whitee = (textx5) => {
+    return textx5.trim()
+}
+
+const whitte = whitee("    this is a text      ")
+console.log(whitte)
+console.log("    this is a text      ")
+
+//16.  Create a function that takes an array of numbers and filters out negative numbers
+
+const numbers = [1, -1, 2, -2, 3, -3]
+
+//const filterr = numbers.filter((numberss) => numbers[i] < 0);
+//console.log(filterr);
+    // i need to put somthing here but i dont know how to use the filter
+
+
+
+
+// 17.  Write a function that takes an object as an argument and returns an array of all the keys present in the object
+const arob = (text7) => {
+  return text7.splice();
+}
+
+const arobb = arob({namee : "sam", home : "myhome" });
+console.log(arobb);
+
+
+
+
 
