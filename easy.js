@@ -73,7 +73,44 @@ const newsum = (c,d) =>{
 const newsumm1 = parseInt(5,5);
 console.log(newsumm1); // i dont know what i did wrong, keeps on saying (NAN)
 
+//10.  Write a function that counts the number of vowels (a, e, i, o, u) in a string.
 
+let somthingg = "hello";
+
+const counting = () => {
+    for (let i = 0; i < somthingg.length; i++) {
+        console.log(somthingg[i]);
+      }
+}
+counting (somthingg)
+
+
+//11.  Write a function that returns the length of a given string.
+const newLength = (stringg) => {
+    return stringg.length;
+}
+
+const striggLengthh = newLength("sarahhh");
+console.log(striggLengthh)
+
+
+//12.  Write a function that converts a string to uppercase.
+
+const uppeer = (text1) => {
+    return text1.toUpperCase();
+}
+
+const text2 = uppeer("some text here");
+console.log(text2)
+
+
+//13.  Write a function that checks if a given string contains a specific 
+
+const checkks = (text3) => {
+    return text3.indexOf("hello");
+}
+const cheking = checkks("world there hello");
+console.log(cheking)
 
 
 
