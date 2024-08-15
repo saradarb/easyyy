@@ -288,3 +288,80 @@ const canDrink = (customer) => {
 const resultt6 = canDrink(18);
 console.log(resultt6)
 
+
+//29.  Given a string, return true if its length is even or false if the length is odd.
+const lenghtEvenOdd = (string3) => {
+    if (string3.length % 2 === 0 ) {
+        return true;
+    } else {
+        return false; 
+    }
+}
+
+const resultt7 = lenghtEvenOdd("helloo");
+console.log(resultt7)
+
+
+//30.  Create a function that accepts an array and returns the last item in the array.
+const lastItem = (lastArray) => {
+    return lastArray.pop();
+}
+
+const resultt8 = lastItem([1, 2, 3, 4, 5, 6, 7]);
+console.log(resultt8)
+
+
+//31.  Create a function that takes a word and returns the new word without including the first character.
+const firstChar = (string4) => {
+    return string4.slice(1, string4.length-1) ;
+}
+
+const resultt9 = firstChar("hello");
+console.log(resultt9)
+
+
+//32.  Given two arguments, return an array which contains these two arguments. Examples makePair(1, 2) ➞ [1, 2] makePair(51, 21) ➞ [51, 21] makePair(512124, 215) ➞ [512124, 215]", code: ""
+//i need to watch video 17 to solve this 
+
+
+// 33.  Create a function that takes an array of numbers or letters and returns a string. Examples arrayToString([1, 2, 3, 4, 5, 6]) ➞ "123456" arrayToString(["a", "b", "c", "d", "e", "f"]) ➞ "abcdef" arrayToString([1, 2, 3, "a", "s", "dAAAA"]) ➞ "123asdAAAA"
+//i need to watch video 17 or 18 to solve this  
+
+
+//34.  Create a function that takes a name and returns a greeting in the form of a string. Don't use a normal function, use an arrow function. Examples helloName("Gerald") ➞ "Hello Gerald!" helloName("Tiffany") ➞ "Hello Tiffany!" helloName("Ed") ➞ "Hello Ed!"
+const helloName = (someName) => {
+    return `Hello ${someName}!`;
+}
+
+const resulttt1 = helloName("Sara");
+console.log(resulttt1)
+
+//35.  A typical car can hold four passengers and one driver, allowing five people to travel around. Given n number of people, return how many cars are needed to seat everyone comfortably.
+/* const carFive = (passengers) => {
+    if ( passengers / 5 === "whole number") { // i stil don't know how to explain the whole number
+        return passengers / 5;
+    } else {
+        return (passengers / 5) +1 
+    }
+} */
+
+//36.  Write a function that prints all the odd numbers less than 100
+const print100 = () => {
+ 
+    for (let i = 1; i < 101; i+=2) {
+    console.log(i)
+   }
+}
+
+print100()
+
+//37.  Write a function that takes in two parameters and calculates the sum of numbers between the two paramenters
+/*const sumBetTwo = (numm1, numm2) => {
+    for (let i = numm1; i <= numm2; i++){ //this is all the numbers between numm1 and numm2  
+ /// i need to return the sum here
+    }
+} */
+
+//38.  Write a function that takes an array of objects with keys name, age and email and remove any object that does not have an email
+
+
