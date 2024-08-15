@@ -240,4 +240,51 @@ const compaar = (num1, num2) => {
 const resultt2 = compaar (20, 20)
 console.log(resultt2)
 
+//25.  Create a function that will handle simple math expressions. The input is an expression in the form of a string. Examples calculator("23+4") ➞ 27 calculator("45-15") ➞ 30 calculator("13+2-5*2") ➞ 5 calculator("49/7*2-3") ➞ 11",
+const resultt3 = (num5, num6) => {
+  let someNeww = 0;
+
+    return Number(num5 + num6); 
+} 
+
+const express1 = resultt3("10", 7,8);
+console.log(express1)// this isn't correct, maybe we can try a for loop that can go thought all the prices
+
+//26.  Create a function that takes two strings as arguments and return either true or false depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+const howTall = (string1, string2) => {
+    if (string1.length === string2.length) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+const resultt4 = howTall("hello", "Chinaa");
+console.log(resultt4)
+
+
+//27.  Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+/*const div1 = (num7) => {
+    if (num7 / 5 ===  whole number){ // i need to change the whole number part, everything else looks correct.
+        return true;
+    } else {
+        return false;
+    }
+} 
+
+const resultt5 = div1(30, 5);
+console.log(resultt5) */
+
+//28.  A bartender is writing a simple program to determine whether he should serve drinks to someone. He only serves drinks to people 18 and older and when he's not on break. Given the person's age, and whether break time is in session, create a function which returns whether he should serve drinks."
+
+const canDrink = (customer) => {
+    if (customer >= 18) {
+        return "The customer can drink";
+    } else {
+        return "The customer Can't drink";
+    }
+} 
+
+const resultt6 = canDrink(18);
+console.log(resultt6)
 
