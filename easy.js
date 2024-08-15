@@ -217,4 +217,27 @@ console.log(aarr)
  console.log(finalGoals)
 
  //23.  Write a function that takes two numbers, return true if the sum of both numbers is less than 30. Otherwise return false.
+const newSum = (numb8, numb9) => {
+    if (numb8 + numb9 < 30 ) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+const resultt1 = newSum (5, 20)
+console.log(resultt1)
+
+//24.  Create a function that returns true when num1 is equal to num2; otherwise return false.
+const compaar = (num1, num2) => {
+    if (num1 === num2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+const resultt2 = compaar (20, 20)
+console.log(resultt2)
+
 
