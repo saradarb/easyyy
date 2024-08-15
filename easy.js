@@ -146,14 +146,75 @@ const numbers = [1, -1, 2, -2, 3, -3]
 
 
 // 17.  Write a function that takes an object as an argument and returns an array of all the keys present in the object
-const arob = (text7) => {
-  return text7.splice();
+//const arob = (text7) => {
+//  return text7.splice();
+//}
+
+//const arobb = arob({namee : "sam", home : "myhome" });
+//console.log(arobb); // chack this again after watching video 17
+
+//18.  write a function that adds default value of "unknown" to the object if the name key is not present or if the value of the name key is empty, undefined or null
+
+const emtyy = (text8) => {
+    if (text8 === "" || text8 === undefined || text8 === null) {
+        console.log("unknown");
+    } else {
+        console.log(text8);
+    }
 }
 
-const arobb = arob({namee : "sam", home : "myhome" });
-console.log(arobb);
+emtyy("")
+emtyy(undefined)
+emtyy(null)
+emtyy("hope")
 
 
 
+//19.  Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+const incrmenn = (numb5) => {
+    //return  numb5++; // why it isn't working 
+    return numb5 + 1;
+}
 
+const inc = incrmenn(10);
+console.log(inc)
+
+//20.  Create a function that takes a number as an argument, multiplies the number by +3 and returns the result.
+
+const multii = (numb6) => {
+    //return  numb5++; // why it isn't working 
+    return numb6 * 3;
+}
+
+const moool = multii(5);
+console.log(moool)
+
+
+
+//21.  Create a function that takes an array containing only numbers and return the first element.
+
+const arrrray = [7, 2, 3, 4, 5, 6]
+
+const arrfun = (arrrray1) => {
+    return arrrray1[0];
+
+} 
+
+const aarr = arrfun(arrrray);
+console.log(aarr)
+
+
+//22. You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+ const basketball = (goals) => {
+    if (goals === '2-pointers') {
+        return goals + 2;
+    } else if (goals === '3-pointers') {
+        return goals + 3;
+    }
+ }
+
+ const  finalGoals =  basketball('2-pointers' + '2-pointers' + '2-pointers');// i dont know how to count it
+ console.log(finalGoals)
+
+ //23.  Write a function that takes two numbers, return true if the sum of both numbers is less than 30. Otherwise return false.
 
