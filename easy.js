@@ -364,4 +364,36 @@ print100()
 
 //38.  Write a function that takes an array of objects with keys name, age and email and remove any object that does not have an email
 
+const objarr = ([myName, age, email]) => {
+if (email === "") {
+    return "...";
+} else {
+    return [myName, age, email]
+}
+}
 
+const resulttt2 = objarr(["sara", 12, "email@gmail.com"]); //i'm not sure if this what we need or no
+console.log(resulttt2)
+
+//39.  Write a function that takes an array of objects with keys name, age and email and return a message that says"hi name, we have sent sent a conformation email to your email adddress" for each object
+const returnn1 = ([myName2, age2, email2]) => {
+    return `hi ${myName2}, we have sent a conformation email to ${email2}`; //"for each object" i'm not sure about this part
+}
+
+
+const resulttt4 = returnn1(["sara", "12", "email@gmail.com"]);
+console.log(resulttt4)
+
+//40.  Write a function that takes an array of objects with keys name, age and email and remove any person whose age is less than 18
+const objarr1 = ([myName3, age3, email3]) => {
+    if (age3 < 18) {
+        return "...";
+    } else {
+        return [myName3, age3, email3]
+    }
+    }
+    
+    const resulttt5 = objarr1(["sara", 12, "email@gmail.com"]); //i'm not sure if this what we need or no
+    console.log(resulttt5)
+
+    
