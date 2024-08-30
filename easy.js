@@ -396,4 +396,4 @@ const objarr1 = ([myName3, age3, email3]) => {
     const resulttt5 = objarr1(["sara", 12, "email@gmail.com"]); //i'm not sure if this what we need or no
     console.log(resulttt5)
 
-    //anything
+    //anythinggggg
